@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.logo img{
+    width: 65px;
+    border-radius:50px;
+    border: 3px solid white;
+
+}
+.navbar{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:sticky;
+    top:0;
+    cursor: pointer;
+}
+.navlist {
+display: flex;
+justify-content: center;
+align-items: center;
+
+width: 50%;
+
+}
+.navlist li{
+padding: 10px;
+margin: 4px;
+list-style: none;
+}
+.navlist li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.rightnav{
+    padding: 0 23px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+#search{
+    border-radius:10px;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    margin: 7px 3px;
+    padding: 8px;
+    font-size: 12px;
+}
+.background{
+    background:rgba(0, 0,0, 0.7) url('img/jeremy-perkins-uhjiu8FjnsQ-unsplash.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstsection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+.firsthalf{
+width: 75%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.secondhalf{
+    width: 30%;
+}
+.secondhalf img{
+    width: 70%;
+   padding: 4px;
+    border-radius: 199px;
+    border: solid 3px white;
+}
+.text-big{
+    text-align: center;
+        width: 100%;
+       font-size: 41px;
+        padding: 3px;
+}
+.text-small{
+    text-align:left;
+    font-size: 15px;
+
+}
+.btn{
+    font-size: 20px;
+    width: 100px;
+    padding:8px 2opx;
+    border: 2px solid white;
+    border-radius: 7px;
+    margin: 7px 3px;
+    background: none;
+    color: white;
+    cursor:pointer;
+}
+.btn-sm{
+    justify-content: center;
+    font-size: 20px;
+    width: 100px;
+    padding:8px 2opx;
+    border: 2px solid white;
+    border-radius: 7px;
+    margin: 20px 3px;
+    background: none;
+    color: white;
+    cursor:pointer;
+}
+.secton{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:auto;
+    max-width: 80%;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.secleft{
+    flex-direction: row-reverse;
+}
+.thumb img{
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 90px;
+}
+.contact-form{
+    text-align: center;
+    background-color: rgb(211, 209, 206);
+
+}
+.form{
+    max-width: 500px;
+    margin: 25px auto;
+}
+.form input{
+    margin: 14px 0;
+    padding: 5px 3px;
+     width: 100%;
+     border: 3px solid white;
+     border-radius: 3px;
+}
+.btn-l{
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+}
+.text-footer{
+    text-align: center;
+    padding:10px ;
+    color: antiquewhite;
+}
+
+.burger{
+    position:absolute;
+    right: 5%;
+    top: 15px;
+    display: none;
+}
+.line{
+    width:25px;
+    background-color: rgb(255, 255, 255);
+    height: 4px;
+    margin: 5px;
+}
+
+
+
+
+
+@media only screen and (max-width:802px){
+.navlist{
+    flex-direction: column;
+}
+.navbar{
+    height: 447px;
+    flex-direction: column;
+    transition: all 0.7s ease-out ;
+    
+}
+.rightnav{
+    text-align: center;
+
+}
+.box-main{
+    flex-direction: column-reverse;
+    max-width: 100%;
+}
+#search{
+    width: 100%;
+}
+.burger{
+    display: block;
+}
+.h-nav{
+    height: 72px;
+}
+.oc{
+    opacity: 0;
+}
+section{
+    flex-direction: column-reverse;
+}
+
+}
+

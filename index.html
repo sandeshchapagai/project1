@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sanDesh</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="img/sa.png">
+   
+</head>
+<body>
+    <nav class="navbar background h-nav">
+        <ul class="navlist oc">
+            <div class="logo"><img src="img/sa.png" alt=""></div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="#service">services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+       <div class="rightnav oc">
+        <input type="text" name="search" id="search">
+        <button class="btn-sm">Search</button>
+       </div>
+       <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+       </div>
+    </nav>
+    <section class="background firstsection">
+        <div class="box-main">
+            <div class="firsthalf">
+                <p class="text-big">Lorem ipsum dolor sit.</p>
+                <p class="text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti earum autem debitis
+                     vero doloribus magni necessitatibus deserunt amet. Tempore, iste.</p>
+                <div class="button">
+                    <button class="btn">WATCH</button>
+                   <button class="btn">CLCIK</button>
+                </div>
+            </div>
+            <div class="secondhalf">
+                <img src="https://source.unsplash.com/200x200?nature,water" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="secton secright">
+        <div>
+        <p class="sectiontag text-big">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <p class="sectionsub text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nostrum qui
+             blanditiis expedita ratione ea laborum adipisci beatae at ipsam commodi, optio assumenda eveni
+            et sit minus possimus incidunt cum harum animi. Saepe, eligendi debitis!</p>
+        </div>
+            <div class="thumb">
+                <img src="https://source.unsplash.com/200x200?nature,sky" alt="">
+            </div>
+    </section>
+    <section class=" secton secleft">
+        <div>
+        <p class="sectiontag text-big">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <p class="sectionsub text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nostrum qui
+             blanditiis expedita ratione ea laborum adipisci beatae at ipsam commodi, optio assumenda eveni
+            et sit minus possimus incidunt cum harum animi. Saepe, eligendi debitis!</p>
+        </div>
+            <div class="thumb">
+                <img src="https://source.unsplash.com/200x200?stones,hills" alt="">
+            </div>
+    </section>
+    <section class="secton secright">
+        <div>
+        <p class="sectiontag text-big">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <p class="sectionsub text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nostrum qui
+             blanditiis expedita ratione ea laborum adipisci beatae at ipsam commodi, optio assumenda eveni
+            et sit minus possimus incidunt cum harum animi. Saepe, eligendi debitis!</p>
+        </div>
+            <div class="thumb">
+                <img src="https://source.unsplash.com/200x200?nature,bird" alt="">
+            </div>
+    </section>
+    <hr>
+    <section class="contact-form">
+        <h1>contact us</h1>
+       <div class="form">
+        <input type="text" placeholder="Enter Your Name">
+        <input type="text" placeholder="Enter Your Phone">
+        <input type="text" placeholder="Enter Your E-mail">
+        <textarea name="name" id="id" cols="30" rows="10" placeholder="Your opinion"></textarea>
+        <button class="btn-l">Submit</button>
+       </div>
+    </section>
+    <footer class="background">
+    <div class="text-footer">
+          Copyright &copy : 2030 -www.sandeshchapagai.com
+    </div>    
+    </footer>
+    <script >
+burger = document.querySelector('.burger')
+navbar = document.querySelector('.navbar')
+navlist = document.querySelector('.navlist')
+rightnav = document.querySelector('.rightnav')
+
+
+burger.addEventListener('click',()=>{
+    rightnav.classList.toggle('oc');
+    navlist.classList.toggle('oc');
+    navbar.classList.toggle('h-nav');
+})
+    </script>
+</body>
+</html>
